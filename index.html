@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jawad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Jawad</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="content">
+            <h1>Hi, I'm Jawad</h1><br><br>
+            <p>A passionate Web Designer & Developer</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I'm Jawad, a passionate individual with an undying love for motorcycles and cars. My interests extend beyond just riding; I explore automotive design, modifications, and the technology that drives innovation in the industry. </p>
+        </div>
+    </section>
+
+    <section id="qualifications" class="section">
+        <div class="content">
+            <h2>Qualification</h2><br><br>
+            <table class="qualification-table">
+                <tr>
+                    <th>Year</th>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Secondary School (SSC)</td>
+                    <td>M.C.E.school and junior college</td>
+                    <td>72%</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Higher Secondary (HSC)</td>
+                    <td>Vishwakarma college of arts, commerce and science</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>Bachelor of Technology (B.Tech)</td>
+                    <td>Vishwakarma Institute of information technology</td>
+                    <td>Ongoing</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+     
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="content">
+            <h2>Experience</h2><br><br>
+            <div class="experience-container">
+                <!-- Block 1: True Story Studios -->
+                <div class="experience-card">
+                    <h3><a href="https://www.instagram.com/true_story_studios/" target="_blank">True Story Studios</a></h3>
+                    <img src="truestory.jpg" alt="True Story Studios">
+                    <p>A photography agency where creativity meets professionalism. Specializing in portrait, product, and automotive photography.</p>
+                </div>
+
+                <!-- Block 2: MOTODRAG -->
+                <div class="experience-card">
+                    <h3><a href="https://www.instagram.com/motodrag.in/" target="_blank">MOTODRAG</a></h3>
+                    <img src="motodrag.jpg" alt="MOTODRAG">
+                    <p>An automotive-themed clothing brand dedicated to blending style with the thrill of riding. Perfect for car and bike enthusiasts!</p>
+                </div>
+
+                <!-- Block 3: Panaah Communities -->
+                <div class="experience-card">
+                    <h3><a href="https://www.instagram.com/the_panaah_communities/" target="_blank">Panaah Communities</a></h3>
+                    <img src="panaah.jpg" alt="Panaah Communities">
+                    <p>Volunteered as an educator, teaching underprivileged kids in collaboration with Slam Out Loud. Contributed to community development for 3 years.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="content">
+            <h2>Skills</h2><br><br>
+            <p><b>Photography:</b>Portrait, Product, and Automotive Photography
+                Event Photography (Weddings, Corporate, Automotive Meets)
+                Studio Lighting and Outdoor Shoots
+                Conceptual Photography and Storytelling Through Images</p>
+            <p><b>Editing:</b>Photo Retouching and Color Correction (Adobe Lightroom)
+                Basic Video Editing (Capcut)
+                Social Media Content Creation (Instagram, Facebook, YouTube)
+                Background Removal and Object Manipulation</p>
+            <p><b>Sketches & Art:</b>Pencil Sketches (Portraits, Automotive, Landscapes)
+                Digital Sketching Using Drawing Tablets
+                Logo and Icon Design Concepts
+                </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Me</h2><br><br>
+            <p>Email:jawadmohammedabbas@gmail.com</p>
+            <p>Instagram:-<a href="https://www.instagram.com/46_jawadx/"> 46_Jawadx_</a></p>
+            <p>Phone: +91-8262026840</p>
+            <p>© 2025 Jawad | All Rights Reserved | Terms and Conditions | Privacy Policy </p>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling effect
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
